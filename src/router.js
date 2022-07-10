@@ -6,6 +6,6 @@ export default createRouter({
     history: createWebHistory(),
     routes: [
         {path: '/products', component: AppProducts, alias: '/'},
-        {path: '/item/:id', component: AppItem }
+        {path: '/products/:id', component: AppItem }
     ]
 })
